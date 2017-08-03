@@ -4,6 +4,10 @@ body{
 .board{
     width: 100%;
     margin:50px 100px;
+    background: url(../img/_001_1800.jpg) no-repeat;
+    -webkit-background-size: 600px;
+         -o-background-size: 600px;
+            background-size: 600px;
 
 }
 .board img{
