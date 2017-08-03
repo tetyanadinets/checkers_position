@@ -1,18 +1,18 @@
 body{
     margin: 0 auto;
-
 }
 .board{
     width: 100%;
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    margin-top: 100px;
+    margin:50px 100px;
+
 }
 .board img{
     transform: rotate(15deg);
     max-width: 600px;
     max-height: 600px;
+    position: fixed;
+    z-index: 1;
+
 }
 .check_red1{
     width: 50px;
@@ -22,8 +22,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 0;
-    left: 44%;
+    top: 10%;
+    left: 24%;
 }
 .check_red2{
     width: 50px;
