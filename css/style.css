@@ -2,22 +2,20 @@ body{
     margin: 0 auto;
 }
 .board{
-    width: 100%;
-    margin:50px 100px;
-    background: url(../img/_001_1800.jpg) no-repeat;
+    margin: 100px;
+    width: 600px;
+    height: 600px;
+    background-image: url(../img/checkers.jpg);
     -webkit-background-size: 600px;
          -o-background-size: 600px;
             background-size: 600px;
-
-}
-.board img{
     transform: rotate(15deg);
-    max-width: 600px;
-    max-height: 600px;
-    position: fixed;
+    background-repeat: no-repeat;
+    position: relative;
     z-index: 1;
-
+    overflow: hidden;
 }
+
 .check_red1{
     width: 50px;
     height: 50px;
@@ -26,8 +24,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 8%;
-    left: 20%;
+    top: 6%;
+    left: 16%;
 }
 .check_red2{
     width: 50px;
@@ -37,8 +35,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 13%;
-    left: 30%;
+    top: 7%;
+    left: 39%;
 }
 .check_red3{
     width: 50px;
@@ -48,8 +46,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 18%;
-    left: 39%;
+    top: 7%;
+    left: 62%;
 }
 .check_red4{
     width: 50px;
@@ -59,8 +57,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 22.5%;
-    left: 49%;
+    top: 7%;
+    left: 85%;
 }
 .check_red5{
     width: 50px;
@@ -70,8 +68,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 15%;
-    left: 14%;
+    top: 16%;
+    left: 7%;
 }
 .check_red6{
     width: 50px;
@@ -81,8 +79,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 20%;
-    left: 23.5%;
+    top: 16%;
+    left: 29%;
 }
 .check_red7{
     width: 50px;
@@ -92,8 +90,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 25%;
-    left: 33%;
+    top: 16%;
+    left: 52%;
 }
 .check_red8{
     width: 50px;
@@ -103,8 +101,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 29.5%;
-    left: 43%;
+    top: 16%;
+    left: 73%;
 }
 .check_red9{
     width: 50px;
@@ -114,7 +112,7 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 26%;
+    top: 28%;
     left: 17.5%;
 }
 .check_red10{
@@ -125,8 +123,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 32%;
-    left: 27%;
+    top: 28%;
+    left: 40%;
 }
 .check_red11{
     width: 50px;
@@ -136,8 +134,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 36.5%;
-    left: 36.5%;
+    top: 28%;
+    left: 62%;
 }
 .check_red12{
     width: 50px;
@@ -147,8 +145,8 @@ body{
     background-color: red;
     position: absolute;
     z-index: 2;
-    top: 41.5%;
-    left: 46%;
+    top: 28%;
+    left: 84%;
 }
 .check_grey1{
     width: 50px;
@@ -158,8 +156,8 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 88%;
-    left: 35%;
+    top: 86%;
+    left: 6%;
 }
 .check_grey2{
     width: 50px;
@@ -169,8 +167,8 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 82%;
-    left: 25%;
+    top: 85%;
+    left: 28%;
 }
 .check_grey3{
     width: 50px;
@@ -180,8 +178,8 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 77%;
-    left: 16%;
+    top: 85%;
+    left: 50%;
 }
 .check_grey4{
     width: 50px;
@@ -191,8 +189,8 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 73%;
-    left: 6%;
+    top: 85%;
+    left: 73%;
 }
 .check_grey5{
     width: 50px;
@@ -202,8 +200,8 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 66%;
-    left: 12%;
+    top: 73%;
+    left: 18%;
 }
 .check_grey6{
     width: 50px;
@@ -213,8 +211,8 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 69.5%;
-    left: 22%;
+    top: 73%;
+    left: 40%;
 }
 .check_grey7{
     width: 50px;
@@ -224,8 +222,8 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 74.5%;
-    left: 31.5%;
+    top: 73%;
+    left: 62%;
 }
 .check_grey8{
     width: 50px;
@@ -235,8 +233,8 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 80%;
-    left: 41%;
+    top: 73%;
+    left: 86%;
 }
 .check_grey9{
     width: 50px;
@@ -246,8 +244,8 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 52%;
-    left: 8.5%;
+    top: 62%;
+    left: 7%;
 }
 .check_grey10{
     width: 50px;
@@ -257,8 +255,8 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 57.5%;
-    left: 18%;
+    top: 62%;
+    left: 28%;
 }
 .check_grey11{
     width: 50px;
@@ -268,8 +266,8 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 64%;
-    left: 28%;
+    top: 62%;
+    left: 52%;
 }
 .check_grey12{
     width: 50px;
@@ -279,6 +277,6 @@ body{
     background-color: grey;
     position: absolute;
     z-index: 2;
-    top: 68%;
-    left: 37%;
+    top: 62%;
+    left: 73%;
 }
